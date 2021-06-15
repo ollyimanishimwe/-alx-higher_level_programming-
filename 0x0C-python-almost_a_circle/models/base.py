@@ -9,6 +9,8 @@ from Base and avoid duplicate the same code.
 
 from os import path
 import json
+import os.path
+import turtle
 
 
 class Base:
@@ -84,3 +86,26 @@ class Base:
                 instances.append(cls.create(**elem))
 
             return instances
+        def draw(list_rectangles, list_squares):
+            """draws our shapes"""
+        turtle.getscreen()
+        turtle.shape("turtle")
+        for rect in list_rectangles:
+            turtle.pencolor(red)
+            turtle.setpos(rect.x, rect.y)
+            turtle.pendown()
+            for i in range(2):
+                turtle.forward(rect.height)
+                turtle.left(90)
+                turtle.forward(rect.width)
+                turtle.left(90)
+            turtle.penup()
+        for sq in list_squares:
+            turtle.pencolor(blue)
+            turtle.setpos(sq.x, sq.y)
+            turtle.pendown()
+            for i in range(4):
+                turtle.foward(sq.height)
+                turtle.left(90)
+            turtle.penup()
+        turtle.exitonclick()
