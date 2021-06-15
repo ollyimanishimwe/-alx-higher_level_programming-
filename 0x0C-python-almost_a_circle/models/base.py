@@ -86,6 +86,7 @@ class Base:
                 instances.append(cls.create(**elem))
 
             return instances
+    @staticmethod
     def draw(list_rectangles, list_squares):
         """Draw shapes using turtle module"""
 
