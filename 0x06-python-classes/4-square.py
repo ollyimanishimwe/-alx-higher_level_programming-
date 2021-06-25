@@ -1,11 +1,13 @@
 #!/usr/bin/python3
+"""Square Class
+
+A Square Class
+
+"""
+
+
 class Square:
-    """Square Class
-
-    A Square Class
-
-    """
-
+    """The __init__ method initializes the size value of the square."""
     def __init__(self, size=0):
         """The __init__ method initializes the size value of the square."""
         if type(size) is not int:
@@ -32,5 +34,5 @@ class Square:
 
     def area(self):
         """The __init__ method initializes the size value of the square."""
-        
+
         return self.__size ** 2
