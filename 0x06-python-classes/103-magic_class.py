@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+"""Coordinates of a square"""
+
 import dis
 import math
-"""Coordinates of a square"""
 
 
 class MagicClass:
