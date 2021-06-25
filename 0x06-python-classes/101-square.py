@@ -59,4 +59,3 @@ class Square:
             str += ' ' * self.position[0]
             str += '#' * self.__size + '\n'
         return str[:-1]
-        
