@@ -5,6 +5,7 @@ A Square Class
 
 """
 
+
 class Square:
     """The __init__ method initializes the size value of the square."""
     def __init__(self, size=0):
