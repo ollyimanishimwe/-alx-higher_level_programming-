@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 import dis
 import math
+"""Coordinates of a square"""
 
 
 class MagicClass:
+    """Coordinates of a square"""
     def __init__(self, radius=0):
+        """Coordinates of a square"""
         self.__radius = 0
 
         if type(radius) is not int and type(radius) is not float:
