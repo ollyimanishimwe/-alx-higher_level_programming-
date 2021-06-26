@@ -1,9 +1,13 @@
 #!/usr/bin/python3
+"""Coordinates of a square"""
+
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
+    """Coordinates of a square"""
     def __init__(self, width, height):
+        """Method"""
         self.integer_validator("width", width)
         self.integer_validator("height", height)
 
