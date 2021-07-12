@@ -15,5 +15,5 @@
 * How to `INSERT`, `UPDATE` or `DELETE` data
 
 
-### Authors
+### Author
 * Olly | [GitHub](https://github.com/ollyimanishimwe) | [Twitter](https://twitter.com/OllyImanishimwe)
